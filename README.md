@@ -11,9 +11,9 @@ To validate the design, a **sorting algorithm implemented in RISC-V assembly** w
 
 Add your diagram here:
 
-```
+
 ![Processor Architecture](utils/DIAGRAM.PNG)
-```
+
 
 ---
 
@@ -116,9 +116,9 @@ the processor executes the following **sorting algorithm** written in RISC-V ass
 | `addi x22,x22,1`     | `32'h00890913` |
 | `bne x22,x10,Loop2`  | `32'hfa000ae3` |
 
-```
+
 ![assembly_code](utils/assembly_codetoimplement.PNG)
-```
+
 
 ### **What the Program Does**
 
@@ -143,10 +143,9 @@ This program stresses:
 
 Add your testbench images:
 
-```
+
 ![Testbench Output - Part 1](utils/RISCV_pipelined1.PNG)
 ![Testbench Output - Part 2](utils/RISCV_pipelined2.PNG)
-```
 
 ---
 
